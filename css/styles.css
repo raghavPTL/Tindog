@@ -1,0 +1,151 @@
+#title{
+    background-color: #ff4c68;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight:bolder;
+}
+h1{
+    font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.3rem;
+    line-height: 1.5;
+    color: black;
+
+}
+.new
+{
+    color:black;
+
+
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid
+{
+    padding: 3% 15% 3% 15%;
+}
+/*  navbar brand */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item
+{
+    padding: 0 20px;
+}
+.navbar-brand
+{
+font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*downlod btn */
+.downlod-btn
+{
+    margin:5% 3% 5% 0%;
+}
+/*title image*/
+.title-image
+{
+    width: 60%;
+    transform: rotate(30deg);
+   
+}
+
+/*features boxes  */
+#features
+{
+    padding: 7% 15%;
+    background-color: #fff;
+    
+}
+.feature-box
+{
+    text-align: center;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c68
+}
+#testimonials
+{
+    background-color: #ff4c68;
+   
+    text-align: center;
+
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press
+{
+    background-color: #ff4c68;
+   text-align: center;
+  
+}
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+.carousel-item
+{
+padding: 7% 15%;
+}
+#pricing
+{
+    text-align: center;
+    padding: 100px;
+}
+.praicing-colum
+{
+    padding:3% 2%;
+}
+.price-hadder
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta
+{
+    
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%;
+}
+.cta-hadding
+{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+#footer
+{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-icon {
+    margin: 20px 10px;
+}
